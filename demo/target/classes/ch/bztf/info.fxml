@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bztf.SecondaryController">
+   <right>
+      <ImageView fitHeight="445.0" fitWidth="282.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@DSC_7822-Bearbeitet.jpg" />
+         </image>
+         <BorderPane.margin>
+            <Insets bottom="25.0" right="60.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </right>
+   <bottom>
+      <HBox prefHeight="35.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="By Marco Büchel">
+               <HBox.margin>
+                  <Insets left="7.0" top="7.0" />
+               </HBox.margin>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#switchToPrimary" text="Home">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <Label text="Kcal-Tracker" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="56.0" />
+         </font>
+         <padding>
+            <Insets top="45.0" />
+         </padding>
+      </Label>
+   </top>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <center>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dieser Kcal-Tracker wurde von Marco Büchel erstellt. Ich habe mich für einen Kcal-Tracker entschieden, da ich im meiner Freizeit sehr viel und auch sehr gerne Sport treibe. Das Design habe ich mit Scene Builder gemacht und dann alles mit Visual Studio Code Verknüpft. " wrappingWidth="384.2734375" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets right="70.0" />
+         </BorderPane.margin>
+      </Text>
+   </center>
+   <left>
+      <ImageView fitHeight="445.0" fitWidth="447.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@kalorien.jpg" />
+         </image>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ImageView>
+   </left>
+</BorderPane>

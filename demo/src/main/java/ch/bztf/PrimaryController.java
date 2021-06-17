@@ -11,21 +11,23 @@ public class PrimaryController {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("fruehstueck");
     }
 
     @FXML
     private void switchToDritter() throws IOException {
-        App.setRoot("Dritter");
+        App.setRoot("mittagessen");
     }
 
     @FXML
     private void switchToVierter() throws IOException {
-        App.setRoot("Vierter");
+        App.setRoot("info");
     }
 
     @FXML
     private void switchToFuenfter() throws IOException {
-        App.setRoot("Fuenfter");
+        App.setRoot("abendessen");
     }
+
+    
 }
